@@ -15,7 +15,7 @@ const routes: Routes = [
     component: CreateOperationComponent
   },
   {
-    path: 'operacoes/',
+    path: 'operacoes',
     component: ListOperationsComponent
   },
   {
