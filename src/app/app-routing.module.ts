@@ -2,11 +2,12 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CreateOperationComponent } from './pages/create-operation/create-operation.component';
 import { CreateServiceComponent } from './pages/create-service/create-service.component';
+import { ListServicesComponent } from './pages/list-services/list-services.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: CreateServiceComponent
+    component: ListServicesComponent
   },
   {
     path: 'operacoes/criar',

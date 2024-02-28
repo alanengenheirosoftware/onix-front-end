@@ -6,6 +6,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { CreateOperationComponent } from './pages/create-operation/create-operation.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { CreateServiceComponent } from './pages/create-service/create-service.component';
+import { ListServicesComponent } from './pages/list-services/list-services.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { CreateServiceComponent } from './pages/create-service/create-service.co
     HeaderComponent,
     CreateOperationComponent,
     SidebarComponent,
-    CreateServiceComponent
+    CreateServiceComponent,
+    ListServicesComponent
   ],
   imports: [
     BrowserModule,
