@@ -7,6 +7,7 @@ import { CreateOperationComponent } from './pages/create-operation/create-operat
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { CreateServiceComponent } from './pages/create-service/create-service.component';
 import { ListServicesComponent } from './pages/list-services/list-services.component';
+import { ListOperationsComponent } from './pages/list-operations/list-operations.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ListServicesComponent } from './pages/list-services/list-services.compo
     CreateOperationComponent,
     SidebarComponent,
     CreateServiceComponent,
-    ListServicesComponent
+    ListServicesComponent,
+    ListOperationsComponent
   ],
   imports: [
     BrowserModule,
