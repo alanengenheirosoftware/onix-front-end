@@ -9,6 +9,7 @@ import { CreateServiceComponent } from './pages/create-service/create-service.co
 import { ListServicesComponent } from './pages/list-services/list-services.component';
 import { ListOperationsComponent } from './pages/list-operations/list-operations.component';
 import { LoginComponent } from './pages/login/login.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,13 +20,10 @@ import { LoginComponent } from './pages/login/login.component';
     CreateServiceComponent,
     ListServicesComponent,
     ListOperationsComponent,
-    LoginComponent
+    LoginComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
