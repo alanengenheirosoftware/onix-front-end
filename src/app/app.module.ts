@@ -10,6 +10,7 @@ import { ListServicesComponent } from './pages/list-services/list-services.compo
 import { ListOperationsComponent } from './pages/list-operations/list-operations.component';
 import { LoginComponent } from './pages/login/login.component';
 import { FormsModule } from '@angular/forms';
+import { ErrorNotFoundComponent } from './pages/error-not-found/error-not-found.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { FormsModule } from '@angular/forms';
     ListServicesComponent,
     ListOperationsComponent,
     LoginComponent,
+    ErrorNotFoundComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
