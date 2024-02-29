@@ -6,6 +6,7 @@ import { ListServicesComponent } from './pages/list-services/list-services.compo
 import { ListOperationsComponent } from './pages/list-operations/list-operations.component';
 import { LoginComponent } from './pages/login/login.component';
 import { ErrorNotFoundComponent } from './pages/error-not-found/error-not-found.component';
+import { AboutComponent } from './pages/about/about.component';
 
 const routes: Routes = [
   {
@@ -31,6 +32,10 @@ const routes: Routes = [
   {
     path: 'servicos',
     component: ListServicesComponent
+  },
+  {
+    path: 'about',
+    component: AboutComponent
   },
   {
     path: '**',

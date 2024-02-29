@@ -11,6 +11,7 @@ import { ListOperationsComponent } from './pages/list-operations/list-operations
 import { LoginComponent } from './pages/login/login.component';
 import { FormsModule } from '@angular/forms';
 import { ErrorNotFoundComponent } from './pages/error-not-found/error-not-found.component';
+import { AboutComponent } from './pages/about/about.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { ErrorNotFoundComponent } from './pages/error-not-found/error-not-found.
     ListOperationsComponent,
     LoginComponent,
     ErrorNotFoundComponent,
+    AboutComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
