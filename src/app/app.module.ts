@@ -8,6 +8,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { CreateServiceComponent } from './pages/create-service/create-service.component';
 import { ListServicesComponent } from './pages/list-services/list-services.component';
 import { ListOperationsComponent } from './pages/list-operations/list-operations.component';
+import { LoginComponent } from './pages/login/login.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ListOperationsComponent } from './pages/list-operations/list-operations
     SidebarComponent,
     CreateServiceComponent,
     ListServicesComponent,
-    ListOperationsComponent
+    ListOperationsComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

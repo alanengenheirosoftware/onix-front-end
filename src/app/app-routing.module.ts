@@ -4,11 +4,16 @@ import { CreateOperationComponent } from './pages/create-operation/create-operat
 import { CreateServiceComponent } from './pages/create-service/create-service.component';
 import { ListServicesComponent } from './pages/list-services/list-services.component';
 import { ListOperationsComponent } from './pages/list-operations/list-operations.component';
+import { LoginComponent } from './pages/login/login.component';
 
 const routes: Routes = [
   {
     path: '',
     component: ListServicesComponent
+  },
+  {
+    path: 'entrar',
+    component: LoginComponent
   },
   {
     path: 'operacoes/criar',
