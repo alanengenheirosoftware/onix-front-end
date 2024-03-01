@@ -7,11 +7,13 @@ import { ListOperationsComponent } from './pages/list-operations/list-operations
 import { LoginComponent } from './pages/login/login.component';
 import { ErrorNotFoundComponent } from './pages/error-not-found/error-not-found.component';
 import { AboutComponent } from './pages/about/about.component';
+import { AuthGuard } from './guards/auth.guard';
 
 const routes: Routes = [
   {
     path: '',
-    component: ListServicesComponent
+    component: ListServicesComponent,
+    canActivate: [AuthGuard]
   },
   {
     path: 'entrar',
@@ -19,23 +21,28 @@ const routes: Routes = [
   },
   {
     path: 'operacoes/criar',
-    component: CreateOperationComponent
+    component: CreateOperationComponent,
+    canActivate: [AuthGuard]
   },
   {
     path: 'operacoes',
-    component: ListOperationsComponent
+    component: ListOperationsComponent,
+    canActivate: [AuthGuard]
   },
   {
     path: 'servicos/criar',
-    component: CreateServiceComponent
+    component: CreateServiceComponent,
+    canActivate: [AuthGuard]
   },
   {
     path: 'servicos',
-    component: ListServicesComponent
+    component: ListServicesComponent,
+    canActivate: [AuthGuard]
   },
   {
     path: 'about',
-    component: AboutComponent
+    component: AboutComponent,
+    canActivate: [AuthGuard]
   },
   {
     path: '**',

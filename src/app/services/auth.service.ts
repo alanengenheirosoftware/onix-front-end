@@ -17,6 +17,12 @@ export class AuthService {
     })
   }
 
+  isLoggedIn(): boolean {
+    const cognitoUser: CognitoUser | null = this.cognitoUserPool.getCurrentUser()
+
+    return !!cognitoUser
+  }
+
   signin(username: string, password: string) {
     const authenticationData: IAuthenticationDetailsData = {
       Username: username,
