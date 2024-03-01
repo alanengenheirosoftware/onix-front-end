@@ -27,7 +27,23 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "allowedCommonJsDependencies": [
+              "uuid",
+              "js-cookie",
+              "cookie",
+              "isomorphic-unfetch",
+              "buffer",
+              "@aws-crypto/crc32",
+              "lodash",
+              "@aws-crypto",
+              "@aws-crypto/sha256-browser",
+              "camelcase-keys",
+              "fast-xml-parser",
+              "@aws-crypto/sha256-js",
+              "ulid",
+              "url"
+            ]
           },
           "configurations": {
             "production": {
