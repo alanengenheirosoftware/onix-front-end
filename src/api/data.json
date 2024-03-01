@@ -1,0 +1,40 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "Serviço A",
+      "price": 19.0,
+      "airport": "65e1c47003ee042e312dfd8a"
+    },
+    {
+      "id": 2,
+      "name": "Serviço B",
+      "price": 29.0,
+      "airport": "65e1c47003ee042e312dfd8a"
+    },
+    {
+      "id": 3,
+      "name": "Serviço C",
+      "price": 39.0,
+      "airport": "65e1c47003ee042e312dfd8a"
+    }
+  ],
+  "operations": [
+    {
+      "id": 1,
+      "service": {
+        "id": 1,
+        "name":"Serviço A"
+      },
+      "consume": 1,
+      "payment": 19,
+      "airport": "65e1c47003ee042e312dfd8a"
+    }
+  ],
+  "version": {
+    "ui": "1.0.0",
+    "web": "0.4.0",
+    "api": "1.0.0",
+    "services": "1.0.0"
+  }
+}
