@@ -6,5 +6,5 @@ services:
     ports:
       - 4200:80
     environment:
-     - NG_APP_USER_POOL_ID=
-     - NG_APP_CLIENT_ID=
+     - NG_APP_USER_POOL_ID=us-east-2_cD4p6YbChx
+     - NG_APP_CLIENT_ID=4jr3o0tse3a8iea6954snl4jegx
