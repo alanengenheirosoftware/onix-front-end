@@ -14,10 +14,10 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <th>1</th>
-                <th>R$ 100</th>
-                <th>A</th>
+              <tr *ngFor="let service of data">
+                <th>{{service.name}}</th>
+                <th>R$ {{service.price}}</th>
+                <th>{{service.airport}}</th>
               </tr>
             </tbody>
           </table>
