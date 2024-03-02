@@ -12,6 +12,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { FormsModule } from '@angular/forms';
 import { ErrorNotFoundComponent } from './pages/error-not-found/error-not-found.component';
 import { AboutComponent } from './pages/about/about.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,7 @@ import { AboutComponent } from './pages/about/about.component';
     ErrorNotFoundComponent,
     AboutComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, FormsModule],
+  imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })

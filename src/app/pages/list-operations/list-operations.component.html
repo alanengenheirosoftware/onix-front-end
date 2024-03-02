@@ -16,14 +16,14 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
+              <tr *ngFor="let operation of data">
                 <th>
-                  <a href="/opeeracoes/1">11</a>
+                  <a href="{{operation.id }}">{{operation.id || 'N/A'}}</a>
                 </th>
-                <th>A</th>
-                <th>1</th>
-                <th>R$ 100</th>
-                <th>1</th>
+                <th>{{operation.service.name}}</th>
+                <th>{{operation.consume}}</th>
+                <th>R$ {{operation.payment}}</th>
+                <th>{{operation.airport}}</th>
               </tr>
             </tbody>
           </table>
